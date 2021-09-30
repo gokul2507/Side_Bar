@@ -36,6 +36,6 @@ function hchange(x) {
         i.className = removeclass(i.className, "display", "hiden");
       }
       
-    }, 250);
+    }, 500);
   }
 }
