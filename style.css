@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidemenu {
+  width: 18%;
+  height: 100vh;
+  background: black;
+  padding: 10px;
+  transition: 1s ease;
+}
+  
+.hidesidemenu{
+  width: 4%;
+  text-align: center;
+}
+.hidemenu {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.menutop {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.menutop i {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+
+/*   Hamberger Bar  */
+.hamberger {
+  display: inline-block;
+  position: relative;
+  right: -30%;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  margin: 3px;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.bar:nth-child(1) {
+  width: 10px;
+}
+.bar:nth-child(3) {
+  width: 17px;
+}
+.hambergerchange .bar:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 1px);
+}
+.hambergerchange .bar:nth-child(2) {
+  transform: rotate(-45deg);
+}
+.hambergerchange .bar:nth-child(3) {
+  transform: rotate(45deg) translate(1px, -8px);
+}
+
+/* Search bar */
+.searchbar {
+  background: #2d2c38;
+  border-radius: 10px;
+  margin: 10px auto;
+  margin-top: 30px;
+  width: 100%;
+}
+.searchbar i {
+  padding: 0px 5px 0px 15px;
+  font-size: 20px;
+}
+.searchbar input {
+  border: 0px;
+  padding: 13px 10px;
+  background: transparent;
+  width: 75%;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+}
+
+.searchbar input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.search .subop{
+  margin: 10px auto;
+  margin-top: 30px;
+}
+.search .hidesubcont{
+  /* padding-top: 12px; */
+  /* transition: 10s ease; */
+  margin: 5px auto;
+  margin-top: 23px;
+}
+/* bars */
+.subop {
+  padding: 2px 0px;
+}
+.subcontainer:hover {
+  border-radius: 15px;
+  background-color: white;
+}
+.subcontainer:hover h2 {
+  color: black;
+}
+.subcontainer:hover i{
+color: black;
+}
+.hidesubcont:hover i {
+  color: black;
+  background:white;
+  border-radius: 15px;
+}
+.display{
+  display: block;
+  /* transition: 10s ease; */
+}
+.hiden {
+  display: none;
+  /* transition: 10s ease; */
+
+}
+.subop i {
+  color: white;
+  font-size: 21px;
+  padding: 17px;
+  padding-left: 15px;
+}
+.subop h2 {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 21px;
+}

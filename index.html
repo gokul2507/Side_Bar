@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Side Menu</title>
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="sidemenu">
+          <div class="hidemenu">
+               <div class="menutop">
+                    <i class="fa fa-terminal subcont display" aria-hidden="true"></i>
+                    <h2 class="subcont display">CodingLab</h2>
+                    <div class="hamberger hambergerchange" onclick="hchange(this)">
+                         <span class="bar"></span>
+                         <span class="bar"></span>
+                         <span class="bar"></span>
+                    </div>
+               </div>
+               <div class="search">
+                    <div class="searchbar subcont display">
+                         <!-- <div class="subcont display"> -->
+                         <i class="fa fa-search" aria-hidden="true"></i>
+                         <input type="text" class="subcont display" placeholder="Search..">
+                         <!-- </div> -->
+                    </div>
+                    <div class="hidesubcont subop hiden"> <i class="fa fa-search" aria-hidden="true"></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-grid-alt'></i>
+                         <h2>Dashboard</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-grid-alt'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-user'></i>
+                         <h2>User</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-user'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-chat'></i>
+                         <h2>Messages</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-chat'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-pie-chart-alt-2'></i>
+                         <h2>Analystics</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-pie-chart-alt-2'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-folder'></i>
+                         <h2>File Manager</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-folder'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-cart-alt'></i>
+                         <h2>Order</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-cart-alt'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-heart'></i>
+                         <h2>Saved</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-heart'></i></div>
+               </div>
+               <div class="subop">
+                    <div class="subcont subcontainer display">
+                         <i class='bx bx-cog'></i>
+                         <h2>Setting</h2>
+                    </div>
+                    <div class="hidesubcont hiden"> <i class='bx bx-cog'></i></div>
+               </div>
+          </div>
+     </div>
+     <script src="index.js"></script>
+</body>
+
+</html>
