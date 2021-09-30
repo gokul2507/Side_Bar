@@ -14,8 +14,8 @@ a {
   padding: 10px;
   transition: 1s ease;
 }
-  
-.hidesidemenu{
+
+.hidesidemenu {
   width: 4%;
   text-align: center;
 }
@@ -72,6 +72,10 @@ a {
 }
 
 /* Search bar */
+.search{
+  
+  position: relative;
+}
 .searchbar {
   background: #2d2c38;
   border-radius: 10px;
@@ -97,19 +101,35 @@ a {
   outline: none;
   box-shadow: none;
 }
-.search .subop{
+.search .subop {
   margin: 10px auto;
   margin-top: 30px;
 }
-.search .hidesubcont{
+.search .hidesubcont {
   /* padding-top: 12px; */
   /* transition: 10s ease; */
   margin: 5px auto;
   margin-top: 23px;
 }
+.hidesubcont {
+  position: relative;
+}
+.subhide {
+  position: absolute;
+  left: 100px;
+  display: none;
+  top: 5px;
+  border-radius: 10px;
+  padding: 12px 25px;
+  background: black;
+  width: max-content;
+  transition: 1s ease;
+}
+
 /* bars */
 .subop {
   padding: 2px 0px;
+  position: relative;
 }
 .subcontainer:hover {
   border-radius: 15px;
@@ -118,22 +138,24 @@ a {
 .subcontainer:hover h2 {
   color: black;
 }
-.subcontainer:hover i{
-color: black;
+.subcontainer:hover i {
+  color: black;
+}
+.hidesubcont:hover .subhide{
+  display: block;
 }
 .hidesubcont:hover i {
   color: black;
-  background:white;
+  background: white;
   border-radius: 15px;
 }
-.display{
+.display {
   display: block;
   /* transition: 10s ease; */
 }
 .hiden {
   display: none;
   /* transition: 10s ease; */
-
 }
 .subop i {
   color: white;
