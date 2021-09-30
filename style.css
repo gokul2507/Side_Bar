@@ -141,7 +141,7 @@ a {
 .subcontainer:hover i {
   color: black;
 }
-.hidesubcont:hover .subhide{
+.hidesubcont:hover .subhider{
   display: block;
 }
 .hidesubcont:hover i {
