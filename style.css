@@ -114,7 +114,7 @@ a {
 .hidesubcont {
   position: relative;
 }
-.subhide {
+.subhider {
   position: absolute;
   left: 100px;
   display: none;
